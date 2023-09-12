@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#Hello {
+    font-size: 50px;
+    color: fuchsia;
+    text-shadow: 2px 2px #000;
+
+}
+#World {
+    font-size: 48px;
+    color: tomato;
+    text-shadow: 2px 2px #000;
+}
+#empty {
+    font: 45px;
+    color: blue;
+    text-shadow: 1px 1px red;
+}
