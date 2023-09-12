@@ -27,7 +27,24 @@ body {
 }
 
 h1 {
-    color: #333;
+    color: slateblue;
+    text-shadow: #4CAF50 1px 1px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+transition: 0.5s;
+}
+
+h1:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+button{
+    transition: 0.3s;
+}
+button:hover {
+    transform: scale(1.07);
+    transition: 0.3s;
+
 }
 
 #display {
@@ -48,5 +65,5 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #266e29;
 }
